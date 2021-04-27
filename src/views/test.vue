@@ -81,7 +81,7 @@
 
 
 
-      <v-col cols="12" sm="12" md="6" lg="6">
+      <v-col cols="12" sm="12" md="8" lg="8">
         <v-card :loading="loading" class="mx-auto px-2" max-width="610">
           <v-card-title class="d-flex justify-center black--text px-5">
             <v-icon color="black" large>person_pin</v-icon>

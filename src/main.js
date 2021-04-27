@@ -18,6 +18,7 @@ require('../src/store/modules/subscriber');
 export const Bus=new Vue();
 
 import Echo from 'laravel-echo';
+
 window.Pusher=require('pusher-js');
 window.Echo =new Echo({
   broadcaster:'pusher',

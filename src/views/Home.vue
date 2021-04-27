@@ -7,7 +7,6 @@
     </div>
 
 <v-divider></v-divider>
-
         <div class=" px-5 mb-5 justify-space-around ">
             <h1 class="subheading grey--text mb-5 d-flex justify-center">See Auctions</h1>
             <v-item-group class="mb-5 d-flex justify-space-around">
@@ -34,7 +33,7 @@
                                         <!-- <counter :year="product.acution_Y_M_D[0]" :month="product.acution_Y_M_D[1]-1" :date="product.acution_Y_M_D[2]" :hour="product.acution_h_m[0]" :minute="product.acution_h_m[1]"
                                             :second="10" :millisecond="1" /> -->
                                     </div>
-<div></div>
+
                                 </v-card>
                             </v-hover>
                         </v-item>

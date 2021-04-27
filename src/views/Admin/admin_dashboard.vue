@@ -163,7 +163,7 @@
         <v-row>
             <v-item-group class="mb-5 px-5">
                 <v-row class="pt-5">
-                    <v-col v-for="acution in Acutions" :key="acution.id" cols="12" sm="12" md="12" lg="12">
+                    <v-col v-for="acution in Acutions" :key="acution.id" cols="12" sm="12" md="12" lg="6">
                         <v-item cols="12" sm="12" md="12" lg="12">
                             <v-card outlined>
                                 <v-row>

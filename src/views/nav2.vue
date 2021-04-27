@@ -11,14 +11,14 @@
     </v-snackbar>
 
 
-        <v-snackbar v-model="sank_error" top color="#E53935">
-          {{ message }}
-          <template v-slot:action="{ attrs }">
-            <v-icon color="white" text v-bind="attrs" @click="sank_error = false">
-              clear
-            </v-icon>
-          </template>
-        </v-snackbar>
+    <v-snackbar v-model="sank_error" top color="#E53935">
+      {{ message }}
+      <template v-slot:action="{ attrs }">
+        <v-icon color="white" text v-bind="attrs" @click="sank_error = false">
+          clear
+        </v-icon>
+      </template>
+    </v-snackbar>
 
 
 
@@ -293,9 +293,9 @@
         this.message = data;
         this.sank_error = true;
       })
-      Bus.$on('auction_not_start',(data)=>{
-        this.message=data;
-        this.sank_error=true;
+      Bus.$on('auction_not_start', (data) => {
+        this.message = data;
+        this.sank_error = true;
       })
 
     },
